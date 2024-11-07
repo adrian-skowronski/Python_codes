@@ -3,8 +3,8 @@
 #implementacja: (implemented by: ) Adrian Skowronski
 #GitHub: https://github.com/adrian-skowronski
 
-rok = int(input("Wprowadz rok: (Enter the year: ) "))
-if (rok % 4 == 0 and rok % 100 != 0) or rok % 400 == 0:
-    print(str(rok)+" to rok przestepny (is a leap year)")
+year = int(input("Wprowadz rok: (Enter the year: ) "))
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print(str(year)+" to rok przestepny (is a leap year)")
 else:
-    print(str(rok)+" to rok nieprzestepny (is a regular year)")
+    print(str(year)+" to rok nieprzestepny (is a regular year)")
